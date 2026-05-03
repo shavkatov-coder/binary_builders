@@ -1,0 +1,1829 @@
+{
+  "users": [
+    {
+      "id": "u_student",
+      "role": "student",
+      "name": "Dilshod Rahimov",
+      "email": "student@binary.uz",
+      "passwordSalt": "student-demo-salt",
+      "passwordHash": "151fdcb398f2934dffe5e267f1bd7ff4232d3a7aee253f0a6a162acb7e1f25e1",
+      "avatar": "",
+      "bio": "Frontend va AI bo'yicha o'quvchi",
+      "xp": 8420,
+      "streak": 18,
+      "badges": [
+        "Fast Learner",
+        "Quiz Master",
+        "Code Sprint"
+      ],
+      "language": "uz",
+      "createdAt": "2026-05-03T07:07:10.276Z"
+    },
+    {
+      "id": "u_teacher",
+      "role": "teacher",
+      "name": "Aziza Karimova",
+      "email": "teacher@binary.uz",
+      "passwordSalt": "teacher-demo-salt",
+      "passwordHash": "e680642269398e928f2171d1488307584d0d6a363114fc1f18b5f140dcb452a9",
+      "avatar": "",
+      "bio": "Senior mentor, web va product design",
+      "xp": 15300,
+      "streak": 41,
+      "badges": [
+        "Mentor Pro",
+        "Live Star",
+        "Top Creator"
+      ],
+      "language": "uz",
+      "createdAt": "2026-05-03T07:07:10.276Z"
+    },
+    {
+      "id": "user_26aeaa4485a9e0f2",
+      "role": "student",
+      "name": "Shavkatov Shodiyorbek",
+      "email": "shavkatovshodiyorbek1@gmail.com",
+      "passwordSalt": "13c785dbf39bc0a3bd60ec7456d623f9",
+      "passwordHash": "57042ee9b6d1d885bb176822befce95821586d301c717951dfb1a5cc4e67c6dd",
+      "avatar": "",
+      "bio": "Binary Builder o'quvchisi",
+      "xp": 1070,
+      "streak": 1,
+      "badges": [
+        "Starter"
+      ],
+      "language": "uz",
+      "createdAt": "2026-05-03T07:08:59.351Z"
+    },
+    {
+      "id": "user_d8754439a06e8117",
+      "role": "teacher",
+      "name": "Gulchexra Teshaboyeva",
+      "email": "gulchexra@gmail.com",
+      "passwordSalt": "654e8395ba403ab0e800752fa3c7e853",
+      "passwordHash": "40dca37079ad794c87b43357ca623a2530fec5252f0adbeb2a716113d6db222f",
+      "avatar": "",
+      "bio": "Binary Builder mentori",
+      "xp": 100,
+      "streak": 1,
+      "badges": [
+        "New Mentor"
+      ],
+      "language": "uz",
+      "createdAt": "2026-05-03T07:11:04.245Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "html-css",
+      "title": "HTML & CSS",
+      "category": "Web foundations",
+      "level": "Boshlang'ich",
+      "summary": "Build clean pages, layouts, forms and responsive interfaces.",
+      "accent": {
+        "from": "#38bdf8",
+        "to": "#8b5cf6"
+      },
+      "duration": "4 hafta",
+      "lessonsCount": 12,
+      "rating": 4.72,
+      "students": 1200,
+      "xp": 900,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "html-css-intro",
+          "title": "HTML & CSS: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "HTML & CSS kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "html-css-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "html-css-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "html-css-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "html-css-q1",
+            "type": "multiple",
+            "prompt": "HTML & CSS kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "html-css-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "html-css-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "javascript",
+      "title": "JavaScript",
+      "category": "Programming",
+      "level": "O'rta",
+      "summary": "Master modern JavaScript, browser APIs and interactive web logic.",
+      "accent": {
+        "from": "#facc15",
+        "to": "#22c55e"
+      },
+      "duration": "5 hafta",
+      "lessonsCount": 13,
+      "rating": 4.77,
+      "students": 1517,
+      "xp": 970,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "javascript-intro",
+          "title": "JavaScript: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "JavaScript kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "javascript-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "javascript-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "javascript-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "javascript-q1",
+            "type": "multiple",
+            "prompt": "JavaScript kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "javascript-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "javascript-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "python",
+      "title": "Python",
+      "category": "Programming",
+      "level": "Boshlang'ich",
+      "summary": "Learn Python syntax, automation, data structures and real projects.",
+      "accent": {
+        "from": "#60a5fa",
+        "to": "#f59e0b"
+      },
+      "duration": "6 hafta",
+      "lessonsCount": 14,
+      "rating": 4.82,
+      "students": 1834,
+      "xp": 1040,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "python-intro",
+          "title": "Python: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Python kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "python-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "python-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "python-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "python-q1",
+            "type": "multiple",
+            "prompt": "Python kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "python-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "python-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-basics",
+      "title": "AI Asoslari",
+      "category": "Artificial intelligence",
+      "level": "Boshlang'ich",
+      "summary": "Understand prompts, models, ethics and everyday AI workflows.",
+      "accent": {
+        "from": "#a78bfa",
+        "to": "#06b6d4"
+      },
+      "duration": "7 hafta",
+      "lessonsCount": 15,
+      "rating": 4.87,
+      "students": 2151,
+      "xp": 1110,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "ai-basics-intro",
+          "title": "AI Asoslari: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "AI Asoslari kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "ai-basics-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "ai-basics-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "ai-basics-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "ai-basics-q1",
+            "type": "multiple",
+            "prompt": "AI Asoslari kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "ai-basics-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "ai-basics-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "web-design",
+      "title": "Web Design",
+      "category": "Design",
+      "level": "O'rta",
+      "summary": "Create visual systems, landing pages, grids and polished web products.",
+      "accent": {
+        "from": "#fb7185",
+        "to": "#38bdf8"
+      },
+      "duration": "8 hafta",
+      "lessonsCount": 16,
+      "rating": 4.72,
+      "students": 2468,
+      "xp": 1180,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "web-design-intro",
+          "title": "Web Design: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Web Design kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "web-design-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "web-design-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "web-design-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "web-design-q1",
+            "type": "multiple",
+            "prompt": "Web Design kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "web-design-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "web-design-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "graphic-design",
+      "title": "Graphic Design",
+      "category": "Design",
+      "level": "Boshlang'ich",
+      "summary": "Work with composition, color, brand kits and digital graphics.",
+      "accent": {
+        "from": "#f97316",
+        "to": "#ec4899"
+      },
+      "duration": "4 hafta",
+      "lessonsCount": 17,
+      "rating": 4.77,
+      "students": 2785,
+      "xp": 1250,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "graphic-design-intro",
+          "title": "Graphic Design: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Graphic Design kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "graphic-design-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "graphic-design-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "graphic-design-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "graphic-design-q1",
+            "type": "multiple",
+            "prompt": "Graphic Design kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "graphic-design-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "graphic-design-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "math-logic",
+      "title": "Matematik Mantiq",
+      "category": "STEM",
+      "level": "O'rta",
+      "summary": "Train propositions, proofs, sets, functions and logical thinking.",
+      "accent": {
+        "from": "#14b8a6",
+        "to": "#6366f1"
+      },
+      "duration": "5 hafta",
+      "lessonsCount": 12,
+      "rating": 4.82,
+      "students": 3102,
+      "xp": 1320,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "math-logic-intro",
+          "title": "Matematik Mantiq: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Matematik Mantiq kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "math-logic-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "math-logic-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "math-logic-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "math-logic-q1",
+            "type": "multiple",
+            "prompt": "Matematik Mantiq kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "math-logic-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "math-logic-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ielts-english",
+      "title": "IELTS English",
+      "category": "Language",
+      "level": "O'rta",
+      "summary": "Practice reading, writing, listening and speaking for IELTS success.",
+      "accent": {
+        "from": "#22c55e",
+        "to": "#0ea5e9"
+      },
+      "duration": "6 hafta",
+      "lessonsCount": 13,
+      "rating": 4.87,
+      "students": 3419,
+      "xp": 1390,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "ielts-english-intro",
+          "title": "IELTS English: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "IELTS English kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "ielts-english-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "ielts-english-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "ielts-english-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "ielts-english-q1",
+            "type": "multiple",
+            "prompt": "IELTS English kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "ielts-english-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "ielts-english-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "german-a1-a2",
+      "title": "Nemis tili A1-A2",
+      "category": "Language",
+      "level": "Boshlang'ich",
+      "summary": "Learn German grammar, vocabulary and daily communication.",
+      "accent": {
+        "from": "#facc15",
+        "to": "#ef4444"
+      },
+      "duration": "7 hafta",
+      "lessonsCount": 14,
+      "rating": 4.72,
+      "students": 3736,
+      "xp": 1460,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "german-a1-a2-intro",
+          "title": "Nemis tili A1-A2: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Nemis tili A1-A2 kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "german-a1-a2-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "german-a1-a2-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "german-a1-a2-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "german-a1-a2-q1",
+            "type": "multiple",
+            "prompt": "Nemis tili A1-A2 kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "german-a1-a2-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "german-a1-a2-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "data-science",
+      "title": "Data Science",
+      "category": "Data",
+      "level": "Yuqori",
+      "summary": "Analyze data, visualize insights and build machine learning basics.",
+      "accent": {
+        "from": "#06b6d4",
+        "to": "#8b5cf6"
+      },
+      "duration": "8 hafta",
+      "lessonsCount": 15,
+      "rating": 4.77,
+      "students": 4053,
+      "xp": 1530,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "data-science-intro",
+          "title": "Data Science: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Data Science kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "data-science-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "data-science-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "data-science-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "data-science-q1",
+            "type": "multiple",
+            "prompt": "Data Science kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "data-science-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "data-science-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "react-js",
+      "title": "React JS",
+      "category": "Frontend",
+      "level": "O'rta",
+      "summary": "Build component systems, hooks, routing and production dashboards.",
+      "accent": {
+        "from": "#38bdf8",
+        "to": "#111827"
+      },
+      "duration": "4 hafta",
+      "lessonsCount": 16,
+      "rating": 4.82,
+      "students": 4370,
+      "xp": 1600,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "react-js-intro",
+          "title": "React JS: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "React JS kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "react-js-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "react-js-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "react-js-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "react-js-q1",
+            "type": "multiple",
+            "prompt": "React JS kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "react-js-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "react-js-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyber-security",
+      "title": "Cyber Security",
+      "category": "Security",
+      "level": "O'rta",
+      "summary": "Learn security hygiene, threats, encryption and safe web practices.",
+      "accent": {
+        "from": "#ef4444",
+        "to": "#475569"
+      },
+      "duration": "5 hafta",
+      "lessonsCount": 17,
+      "rating": 4.87,
+      "students": 4687,
+      "xp": 1670,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "cyber-security-intro",
+          "title": "Cyber Security: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Cyber Security kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "cyber-security-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "cyber-security-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "cyber-security-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "cyber-security-q1",
+            "type": "multiple",
+            "prompt": "Cyber Security kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "cyber-security-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "cyber-security-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ui-ux-design",
+      "title": "UI/UX Design",
+      "category": "Product design",
+      "level": "O'rta",
+      "summary": "Research users, prototype flows and design delightful interfaces.",
+      "accent": {
+        "from": "#c084fc",
+        "to": "#10b981"
+      },
+      "duration": "6 hafta",
+      "lessonsCount": 12,
+      "rating": 4.72,
+      "students": 5004,
+      "xp": 1740,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "ui-ux-design-intro",
+          "title": "UI/UX Design: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "UI/UX Design kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "ui-ux-design-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "ui-ux-design-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "ui-ux-design-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "ui-ux-design-q1",
+            "type": "multiple",
+            "prompt": "UI/UX Design kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "ui-ux-design-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "ui-ux-design-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "public-speaking",
+      "title": "Public Speaking",
+      "category": "Soft skills",
+      "level": "Boshlang'ich",
+      "summary": "Build confidence, structure talks and present ideas clearly.",
+      "accent": {
+        "from": "#f43f5e",
+        "to": "#f59e0b"
+      },
+      "duration": "7 hafta",
+      "lessonsCount": 13,
+      "rating": 4.77,
+      "students": 5321,
+      "xp": 1810,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "public-speaking-intro",
+          "title": "Public Speaking: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Public Speaking kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "public-speaking-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "public-speaking-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "public-speaking-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "public-speaking-q1",
+            "type": "multiple",
+            "prompt": "Public Speaking kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "public-speaking-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "public-speaking-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "excel",
+      "title": "Excel",
+      "category": "Productivity",
+      "level": "Boshlang'ich",
+      "summary": "Use formulas, tables, dashboards and data cleaning in Excel.",
+      "accent": {
+        "from": "#22c55e",
+        "to": "#0f766e"
+      },
+      "duration": "8 hafta",
+      "lessonsCount": 14,
+      "rating": 4.82,
+      "students": 5638,
+      "xp": 1880,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "excel-intro",
+          "title": "Excel: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Excel kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "excel-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "excel-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "excel-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "excel-q1",
+            "type": "multiple",
+            "prompt": "Excel kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "excel-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "excel-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "freelancing",
+      "title": "Freelancing",
+      "category": "Career",
+      "level": "Boshlang'ich",
+      "summary": "Create offers, manage clients, price work and deliver professionally.",
+      "accent": {
+        "from": "#8b5cf6",
+        "to": "#fb7185"
+      },
+      "duration": "4 hafta",
+      "lessonsCount": 15,
+      "rating": 4.87,
+      "students": 5955,
+      "xp": 1950,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "freelancing-intro",
+          "title": "Freelancing: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Freelancing kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "freelancing-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "freelancing-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "freelancing-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "freelancing-q1",
+            "type": "multiple",
+            "prompt": "Freelancing kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "freelancing-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "freelancing-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mobile-app",
+      "title": "Mobile App Development",
+      "category": "Mobile",
+      "level": "O'rta",
+      "summary": "Plan, design and build mobile app interfaces and logic.",
+      "accent": {
+        "from": "#0ea5e9",
+        "to": "#f97316"
+      },
+      "duration": "5 hafta",
+      "lessonsCount": 16,
+      "rating": 4.72,
+      "students": 6272,
+      "xp": 2020,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "mobile-app-intro",
+          "title": "Mobile App Development: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Mobile App Development kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "mobile-app-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "mobile-app-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "mobile-app-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "mobile-app-q1",
+            "type": "multiple",
+            "prompt": "Mobile App Development kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "mobile-app-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "mobile-app-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "problem-solving",
+      "title": "Problem Solving",
+      "category": "Thinking",
+      "level": "O'rta",
+      "summary": "Solve complex problems with systems thinking and practical frameworks.",
+      "accent": {
+        "from": "#84cc16",
+        "to": "#14b8a6"
+      },
+      "duration": "6 hafta",
+      "lessonsCount": 17,
+      "rating": 4.77,
+      "students": 6589,
+      "xp": 2090,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "problem-solving-intro",
+          "title": "Problem Solving: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Problem Solving kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "problem-solving-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "problem-solving-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "problem-solving-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "problem-solving-q1",
+            "type": "multiple",
+            "prompt": "Problem Solving kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "problem-solving-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "problem-solving-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "algorithms",
+      "title": "Algoritmlar",
+      "category": "Computer science",
+      "level": "Yuqori",
+      "summary": "Study complexity, sorting, searching, recursion and graph thinking.",
+      "accent": {
+        "from": "#6366f1",
+        "to": "#22d3ee"
+      },
+      "duration": "7 hafta",
+      "lessonsCount": 12,
+      "rating": 4.82,
+      "students": 6906,
+      "xp": 2160,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "algorithms-intro",
+          "title": "Algoritmlar: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Algoritmlar kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "algorithms-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "algorithms-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "algorithms-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "algorithms-q1",
+            "type": "multiple",
+            "prompt": "Algoritmlar kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "algorithms-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "algorithms-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "career-skills",
+      "title": "Career Skills",
+      "category": "Career",
+      "level": "Boshlang'ich",
+      "summary": "Write resumes, prepare interviews and build a strong digital profile.",
+      "accent": {
+        "from": "#f59e0b",
+        "to": "#2563eb"
+      },
+      "duration": "8 hafta",
+      "lessonsCount": 13,
+      "rating": 4.87,
+      "students": 7223,
+      "xp": 2230,
+      "certificate": true,
+      "lessons": [
+        {
+          "id": "career-skills-intro",
+          "title": "Career Skills: start va roadmap",
+          "type": "Matn",
+          "minutes": 18,
+          "body": "Career Skills kursida maqsad, amaliy loyiha va haftalik o'qish rejasi bilan tanishasiz."
+        },
+        {
+          "id": "career-skills-practice",
+          "title": "Amaliy laboratoriya",
+          "type": "Video",
+          "minutes": 32,
+          "body": "Real vazifa ustida ishlab, bilimni darhol amaliyotga aylantirasiz."
+        },
+        {
+          "id": "career-skills-quiz",
+          "title": "Mini quiz",
+          "type": "Quiz",
+          "minutes": 10,
+          "body": "Asosiy tushunchalar bo'yicha tezkor tekshiruv."
+        },
+        {
+          "id": "career-skills-project",
+          "title": "Portfolio topshirig'i",
+          "type": "Project",
+          "minutes": 45,
+          "body": "Kurs yakunida namoyish qilish mumkin bo'lgan loyiha yaratasiz."
+        }
+      ],
+      "finalTest": {
+        "timeLimit": 20,
+        "questions": [
+          {
+            "id": "career-skills-q1",
+            "type": "multiple",
+            "prompt": "Career Skills kursida eng muhim odat qaysi?",
+            "options": [
+              "Har kuni kichik amaliyot qilish",
+              "Faqat video ko'rish",
+              "Natijani tekshirmaslik",
+              "Rejasiz o'qish"
+            ],
+            "answer": "Har kuni kichik amaliyot qilish"
+          },
+          {
+            "id": "career-skills-q2",
+            "type": "truefalse",
+            "prompt": "Progressni o'lchash o'quv motivatsiyasini oshiradi.",
+            "answer": "True"
+          },
+          {
+            "id": "career-skills-q3",
+            "type": "short",
+            "prompt": "Kurs yakunidagi asosiy hujjat nima?",
+            "answer": "sertifikat"
+          }
+        ]
+      }
+    }
+  ],
+  "classrooms": [
+    {
+      "id": "class_3f00af761928649e",
+      "title": "English lesson",
+      "subject": "English",
+      "teacherId": "user_d8754439a06e8117",
+      "joinCode": "H43TVE",
+      "accent": "#8b5cf6",
+      "createdAt": "2026-05-03T07:11:30.417Z",
+      "students": [
+        "user_26aeaa4485a9e0f2"
+      ],
+      "announcements": [],
+      "lessons": [
+        {
+          "id": "lesson_9cc2073b011e03e5",
+          "type": "Text lesson",
+          "title": "English",
+          "body": "English — dunyodagi eng mashhur va eng ko‘p ishlatiladigan tillardan biri.\n🌍 Asosiy ma’lumotlar:\n\n\nTil oilasi: Germanic (German tillar oilasi)\n\n\nKelib chiqishi: Angliya\n\n\nSo‘zlashuvchilar: 1.5 milliarddan ortiq odam (ona tili + ikkinchi til sifatida)\n\n\nRasmiy til: AQSH, Buyuk Britaniya, Kanada, Avstraliya va yana ko‘plab davlatlarda\n\n\n📚 Nega muhim?\n\n\nXalqaro aloqa tili\n\n\nInternetdagi kontentning katta qismi ingliz tilida\n\n\nIT, biznes, fan va turizmda juda kerak\n\n\nChet el universitetlari uchun foydali\n\n\n✍️ Qismlari:\n\n\nGrammar – grammatika\n\n\nVocabulary – lug‘at\n\n\nSpeaking – gapirish\n\n\nListening – tinglash\n\n\nWriting – yozish\n\n\n🔥 O‘rganish foydasi:\n\n\nYaxshi ish topish imkoniyati oshadi\n\n\nChet elga chiqish osonlashadi\n\n\nFilmlar, kitoblar originalda tushuniladi\n\n\nDasturlash va texnologiyada juda foydali\n\n\n🎯 Senga maslahat:\nHar kuni 20-30 minut inglizcha shug‘ullansang tez o‘sasan.\nAgar xohlasang, senga 0 dan fluent bo‘lish rejasi, eng kerakli 500 ta so‘z, yoki 8-sinf o‘quvchisi uchun plan ham tuzib beraman.",
+          "url": "EQCLfvbkTrdUJ1wfyNI9uOdcK30z1wbWWX060mrXBNwp2Tse",
+          "createdAt": "2026-05-03T07:13:51.634Z"
+        }
+      ],
+      "homework": [],
+      "tests": [
+        {
+          "id": "test_570d9023d261a0b9",
+          "title": "English",
+          "timedMinutes": 20,
+          "questions": [
+            {
+              "id": "q0_d4e2dabda21c8acc",
+              "type": "multiple",
+              "prompt": "She ___ to school every day.",
+              "options": [
+                "A) go B) goes C) going D) gone"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ],
+      "live": null,
+      "chat": [],
+      "grades": []
+    },
+    {
+      "id": "class_frontend",
+      "title": "Frontend Intensive",
+      "subject": "HTML, CSS, JavaScript",
+      "teacherId": "u_teacher",
+      "joinCode": "BINARY7",
+      "accent": "#38bdf8",
+      "createdAt": "2026-05-03T07:07:10.276Z",
+      "students": [
+        "u_student"
+      ],
+      "announcements": [
+        {
+          "id": "ann_1",
+          "title": "Haftalik sprint boshlandi",
+          "text": "Bu hafta responsive layout va dark mode ustida ishlaymiz.",
+          "createdAt": "2026-05-03T07:07:10.276Z"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "type": "YouTube",
+          "title": "CSS Grid va Flexbox",
+          "body": "Amaliy dars: dashboard layout qurish.",
+          "url": "https://www.youtube.com/embed/jV8B24rSN5o",
+          "createdAt": "2026-05-03T07:07:10.276Z"
+        },
+        {
+          "id": "lesson_2",
+          "type": "PDF",
+          "title": "Design system checklist",
+          "body": "Spacing, rang, typography va component state bo'yicha qo'llanma.",
+          "url": "",
+          "createdAt": "2026-05-03T07:07:10.276Z"
+        }
+      ],
+      "homework": [
+        {
+          "id": "hw_1",
+          "title": "Portfolio homepage",
+          "due": "2026-05-10",
+          "status": "open",
+          "points": 100
+        }
+      ],
+      "tests": [
+        {
+          "id": "test_1",
+          "title": "CSS Fundamentals",
+          "timedMinutes": 15,
+          "questions": [
+            {
+              "id": "t1_q1",
+              "type": "multiple",
+              "prompt": "Responsive dizaynda qaysi birlik ko'p ishlatiladi?",
+              "options": [
+                "rem",
+                "kg",
+                "ms",
+                "volt"
+              ],
+              "answer": "rem"
+            },
+            {
+              "id": "t1_q2",
+              "type": "truefalse",
+              "prompt": "Media query turli ekranlar uchun stil yozishga yordam beradi.",
+              "answer": "True"
+            }
+          ]
+        }
+      ],
+      "live": {
+        "title": "Live UI Review",
+        "scheduledAt": "2026-05-05T15:00:00+05:00",
+        "room": "bb-live-frontend",
+        "attendance": [
+          "u_student"
+        ]
+      },
+      "chat": [
+        {
+          "id": "chat_1",
+          "userId": "u_teacher",
+          "name": "Aziza Karimova",
+          "text": "Bugungi darsda layoutni premium ko'rinishga keltiramiz.",
+          "createdAt": "2026-05-03T07:07:10.276Z"
+        }
+      ],
+      "grades": [
+        {
+          "studentId": "u_student",
+          "label": "CSS Fundamentals",
+          "score": 92
+        },
+        {
+          "studentId": "u_student",
+          "label": "Portfolio homepage",
+          "score": 88
+        }
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "userId": "u_student",
+      "courseId": "html-css",
+      "progress": 82,
+      "xp": 1120,
+      "lastLesson": "CSS Grid va Flexbox"
+    },
+    {
+      "userId": "u_student",
+      "courseId": "javascript",
+      "progress": 64,
+      "xp": 890,
+      "lastLesson": "DOM events"
+    },
+    {
+      "userId": "u_student",
+      "courseId": "ai-basics",
+      "progress": 38,
+      "xp": 520,
+      "lastLesson": "Prompt frameworks"
+    },
+    {
+      "userId": "u_student",
+      "courseId": "ielts-english",
+      "progress": 71,
+      "xp": 740,
+      "lastLesson": "Writing Task 2"
+    },
+    {
+      "userId": "user_26aeaa4485a9e0f2",
+      "courseId": "javascript",
+      "progress": 100,
+      "xp": 970,
+      "lastLesson": "Final test"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub_1",
+      "userId": "u_student",
+      "testId": "test_1",
+      "classroomId": "class_frontend",
+      "score": 92,
+      "createdAt": "2026-05-03T07:07:10.276Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert_2dd31752948d4b53",
+      "userId": "user_26aeaa4485a9e0f2",
+      "courseId": "javascript",
+      "courseTitle": "JavaScript",
+      "name": "Shavkatov Shodiyorbek",
+      "issuedAt": "2026-05-03",
+      "qr": "BB-JAVASCRIPT-USER_26AEAA4485A9E0F2"
+    },
+    {
+      "id": "cert_demo",
+      "userId": "u_student",
+      "courseId": "html-css",
+      "courseTitle": "HTML & CSS",
+      "name": "Dilshod Rahimov",
+      "issuedAt": "2026-04-28",
+      "qr": "BB-HTMLCSS-DILSHOD-2026"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "note_1",
+      "audience": "student",
+      "text": "Frontend Intensive live darsi 5-may kuni 15:00 da.",
+      "createdAt": "2026-05-03T07:07:10.276Z"
+    },
+    {
+      "id": "note_2",
+      "audience": "teacher",
+      "text": "3 ta o'quvchi sertifikat uchun final testga yaqin.",
+      "createdAt": "2026-05-03T07:07:10.276Z"
+    }
+  ]
+}
