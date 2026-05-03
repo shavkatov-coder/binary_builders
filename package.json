@@ -1,0 +1,17 @@
+{
+  "name": "binary-builder",
+  "version": "1.0.0",
+  "description": "Binary Builder premium education platform demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "education",
+    "classroom",
+    "courses",
+    "uzbek"
+  ],
+  "author": "Binary Builder",
+  "license": "MIT"
+}
